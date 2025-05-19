@@ -7,7 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="9.2.1" />
     <PackageReference Include="Aspire.StackExchange.Redis.OutputCaching" Version="9.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AspireBlazorApp1.ServiceDefaults\AspireBlazorApp1.ServiceDefaults.csproj" />
   </ItemGroup>
 
 </Project>
